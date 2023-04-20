@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	"http_server/server"
+	"gowebapi.com/server"
 	"log"
 	"os"
 	"os/signal"
