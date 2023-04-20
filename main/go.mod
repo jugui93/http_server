@@ -1,7 +1,7 @@
-module gowebapi.com/main
+module github.com/jugui93/http_server/main
 
 go 1.20
 
-replace gowebapi.com/server => ../server
+//replace github.com/jugui93/http_server/server => ../server
 
-require gowebapi.com/server v0.0.0-00010101000000-000000000000
+require github.com/jugui93/http_server/server v0.0.0-00010101000000-000000000000
