@@ -17,7 +17,7 @@ func main() {
 
 	signal.Notify(serverDoneChan, os.Interrupt, syscall.SIGTERM)
 
-	srv := server.New(":8080")
+	srv := server.New(":8081")
 
 	go func() {
 		err := srv.ListenAndServe()
